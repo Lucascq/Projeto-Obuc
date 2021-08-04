@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    </head>
+
+    <body>
+        
+        <header>
+            <h1 class="titulo">Controle de Locais de Trabalho 
+                <img id="user" src="Imagens/user.png">
+            </h1>
+            
+        </header>
+        <nav>
+            <div class="menu">
+                <ul class="lista"></ul>
+                    <li class="menuItem">
+                        <a onclick="openContent(this,'emconstrucao')">
+                            <span class="text">Administração</span>
+                        </a>
+                    </li>
+                    <li class="menuItem">
+                        <a onclick="openContent(this,'emconstrucao')">
+                            <span class="text">Administradores</span>
+                        </a>
+                    </li>
+                    <li class="menuItem">
+                        <a onclick="openContent(this,'emconstrucao')">
+                            <span class="text">Áreas</span>
+                        </a>
+                    </li>
+                    <li class="menuItem">
+                        <a onclick="openContent(this,'cadlocais')">
+                            <span class="text">Locais de Trabalho</span>
+                    </a>
+                    </li>
+                    <li class="menuItem">
+                        <a onclick="openContent(this,'emconstrucao')">
+                            <span class="text">Habilidades</span>
+                        </a>
+                    </li>
+                    <li class="menuItem">
+                        <a onclick="openContent(this,'emconstrucao')">
+                            <span class="text">Log</span>
+                        </a>
+                    </li>
+                    <li class="menuItem">
+                        <a link=href onclick="openContent(this,'emconstrucao')">
+                            <span class="text">Responsáveis</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div>
+            <h2 class="menucontent" id="emconstrucao">Em construção</h2>
+        </div>
+
+        <main class="menucontent" id="cadlocais">
+            <div class="subtitle">
+                <h2>Locais de Trabalho</h2>
+                <hr>
+            </div>
+            <div class="card">
+                <div class="inputs">
+                    <label>Prédios</label>
+                    <input type="text" id="predio">
+                </div>
+                <divc class="inputs">
+                    <label>Local de Trabalho</label>
+                    <input type="text" id="local">
+                </div>
+
+                <button onclick="adicionar()">Adicionar</button>
+            </div>
+            
+        <div clas="conteudo">
+            <table border= "1">
+                <thead>
+                    <th class="center">Prédio</th>
+                    <th class="center">Local de Trabalho</th>
+                    <th class="center">Ações</th>
+                </thead>
+                <tbody id="tbody">
+                    
+                </tbody>
+            </table>
+        </div>
+        </main>
+
+    </body>
+</html>

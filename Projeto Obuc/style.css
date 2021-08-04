@@ -1,0 +1,136 @@
+header{
+    background-image:  linear-gradient(to right, rgba(2,0,36,1) 25%,  rgba(2,0,36,1) 20%, transparent, transparent), url(./Imagens/admin-small.png);
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    
+}
+body{
+
+    margin: 0;
+    
+
+
+}
+nav{
+    width: 25%;
+}
+
+.titulo{
+    color: white;
+    font-size: 25px;
+    padding-left: 30px;
+    padding-top: 13px;
+    
+
+}
+.subtitle{
+    color: black;
+    position: relative;
+    bottom: 320px;
+    padding-left: 50px;
+    font-size: 10px;
+    
+}
+.card{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 15px;
+
+}
+
+.center{
+    text-align: center;
+}
+
+.inputs {
+    display: grid;
+    position: relative;
+    bottom: 320px;
+    left: 100px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    position: relative;
+    bottom: 300px;
+}
+
+button{
+    position: relative;
+    left: 50%;
+    bottom: 310px;
+}
+
+ul {
+    width: 25%;
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(49,112,152,1) 64%);
+    overflow: auto;
+    padding: 0px;
+    position: fixed;
+    list-style-type: none;
+    height: 200%;
+    position: absolute;
+}
+li{
+    position: relative;
+    color: white;
+    list-style-type: none;
+    border-bottom: 3px solid black;
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    background-color: rgb(17, 49, 71);
+    
+}
+a {
+    border-bottom: 1px solid black;
+    text-decoration:none;
+    display:block;
+    height:100%;
+    width:100%;
+    line-height:50px;
+    color:#bbb;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left:10%;
+    border-left:5px solid transparent;
+    letter-spacing:1px;
+    margin-top: 0px;
+    transition: all 0.3s linear;
+    
+}
+
+.active a{
+    color: #eee;
+    border-left: 5px solid #FCFCFC;
+}
+#cadlocais{
+    margin-left: 25%;
+    padding-left: 1px;
+    padding-top: 10px;
+    height: 10px;
+    display: none;
+    margin-top: 0%;
+    
+}
+#emconstrucao{
+    margin-left: 25%;
+    padding-left: 1px;
+    padding-top: 10px;
+    height: 100px;
+    display: none;
+    position: relative;
+    bottom: 100px;
+    
+
+}
+
+#user{
+    float: right;
+    height: 50px;
+    padding: 0%;
+    position: relative;
+    bottom: 10px;
+}
